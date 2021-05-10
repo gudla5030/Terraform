@@ -1,0 +1,18 @@
+subscription_id = ""
+client_id       = ""
+client_secret   = ""
+tenant_id       = ""
+
+ResourceGroup     = "Terraform-VMSS-LB"
+location          = "east us"
+adress_range      = ["10.0.0.0/16"]
+lbinternal        = "lb-vmss-internal"
+nsg               = "vmsslbsecuritygroup"
+loadbalancer_name = "terraform-lb"
+frontend_name     = "PublicIPAddress"
+backendpool_name  = "BackEndAddressPool"
+health_prob       = "ssh-running-probe"
+vmss_name         = "vmsslinux01"
+networkprofile    = "terraformnetworkprofile"
+username          = "azadmin"
+password          = "Password@123"
